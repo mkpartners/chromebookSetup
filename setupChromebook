@@ -1,0 +1,35 @@
+#!/bin/bash
+### Installation Instructions
+# 1. Copy File to Drive
+# 3. Open Terminal and locate file
+# 4. chmod 755 setupChromebook
+
+## install git wget lib32stdc++t libxss1
+sudo apt install git wget lib32stdc++6 libxss1 nodejs
+sudo apt-get -f install
+#
+## install NodeJS and npm
+sudo npm install npm -g
+#
+## install vscode
+wget https://go.microsoft.com/fwlink/?LinkID=760868 -O vscode.deb
+sudo dpkg -i vscode.deb
+sudo apt-get install -f # Install dependencies
+#
+## install sfdx
+wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
+mkdir sfdx
+tar xJf sfdx-linux-amd64.tar.xz -C sfdx --strip-components 1
+sudo ./sfdx/install
+#
+## install chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+#
+## install slack
+#
+## install firebase
+sudo npm install -g firebase-tools
+#
+## install polymer
+sudo npm install -g polymer-cli
