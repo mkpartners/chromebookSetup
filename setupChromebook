@@ -5,31 +5,45 @@
 # 4. chmod 755 setupChromebook
 
 ## install git wget lib32stdc++t libxss1
-sudo apt install git wget lib32stdc++6 libxss1 nodejs
-sudo apt-get -f install
+echo installing git wget lib32stdc++6 libxss1
+sudo apt install git wget lib32stdc++6 libxss1
+sudo apt-get -f -y install
 #
 ## install NodeJS and npm
-sudo npm install npm -g
+echo installing nodejs
+curl -sL https://deb.nodesource.com/setup_11.x | bash -
+sudo apt-get install -y nodejs
 #
 ## install vscode
+echo installing vscode
 wget https://go.microsoft.com/fwlink/?LinkID=760868 -O vscode.deb
 sudo dpkg -i vscode.deb
-sudo apt-get install -f # Install dependencies
+sudo apt-get install -f -y 
 #
 ## install sfdx
+echo installing sfdx
 wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
 mkdir sfdx
 tar xJf sfdx-linux-amd64.tar.xz -C sfdx --strip-components 1
 sudo ./sfdx/install
 #
 ## install chrome
+echo installing Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 #
 ## install slack
 #
 ## install firebase
+echo installing firebase
 sudo npm install -g firebase-tools
 #
 ## install polymer
+echo installing polymer
 sudo npm install -g polymer-cli
+#
+## cleaning up
+sudo apt autoremove
+rm sfdx-linux-amd64.tar.xz
+rm vscode.deb
+rm google-chrome-stable_current_amd64.deb
