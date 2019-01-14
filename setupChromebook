@@ -43,7 +43,7 @@ echo installing polymer
 sudo npm install -g polymer-cli
 #
 ## cleaning up
-sudo apt autoremove
+sudo apt autoremove -y
 rm sfdx-linux-amd64.tar.xz
 rm vscode.deb
 rm google-chrome-stable_current_amd64.deb
