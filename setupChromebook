@@ -75,11 +75,6 @@ echo END installing Postman\n\n\n\n\n
 ### install slack
 #
 #
-### install Force Data Loader
-echo BEGIN installing Data Loader
-git https://github.com/forcedotcom/dataloader.git ~/dev/dataloader
-echo END installing Data Loader
-#
 ### install firebase
 echo BEGIN installing firebase
 sudo npm install -g firebase-tools
@@ -97,5 +92,16 @@ sudo apt autoremove -y
 rm sfdx-linux-amd64.tar.xz
 rm vscode.deb
 rm google-chrome-stable_current_amd64.deb
+#
+#
+### install Force Data Loader
+echo BEGIN installing Data Loader
+git clone https://github.com/forcedotcom/dataloader.git ~/dev/dataloader
+cd ~/dev/dataloader
+git submodule init
+git submodule update
+mvn clean package -DskipTests
+echo END installing Data Loader
+#
 #
 echo \n\n\n\n\nINSTALLATION COMPLETE -- This message will script will self destruct in 0 seconds
