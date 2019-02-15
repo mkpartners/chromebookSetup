@@ -1,11 +1,24 @@
 #!/bin/bash
 ### install nvm
 echo BEGIN installing node
-sudo nvm install node
+echo ""
+echo nvm install node
+nvm install node
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo nvm ls
 nvm ls
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
 echo END installing node
-echo -
-echo -
-echo -
-echo -
-echo -
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
