@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Dataloader
+Comment=Salesforce Dataloader
+GenericName=Dataloader
+Exec=java -jar "/home/yourusername/dataloader/target/dataloader-44.0.0-uber.jar"
+Icon=/usr/share/pixmaps/dataloader.png
+Type=Application
+StartupNotify=true
+Categories=Utility;Development;Network;
+Keywords=postman;
+
+

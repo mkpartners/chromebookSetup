@@ -19,4 +19,4 @@ Usage:
 2. Click the Turn on button to enable Linux on the Chromebook
 3. Click the Install button
 4. After installation is complete, a terminal window will open
-5. sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/setupChromebook | bash
+5. sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/setupChromebook.sh | bash
