@@ -1,3 +1,4 @@
+#!/bin/bash
 ### install nvm
 echo BEGIN installing node
 sudo nvm install node
