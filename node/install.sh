@@ -1,7 +1,7 @@
 ### install nvm
 echo BEGIN installing node
-nvm install node
-nvm install ls
+sudo nvm install node
+nvm ls
 echo END installing node
 echo -
 echo -
