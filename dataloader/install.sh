@@ -29,22 +29,21 @@ sudo mv dataloader.png /usr/share/pixmaps/dataloader.png
 echo ""
 #echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.desktop"
 echo Create desktop file for dtaloader
-echo "
+sudo echo "
 [Desktop Entry]
 Name=Dataloader
 Comment=Salesforce Dataloader
 GenericName=Dataloader
-Exec=java -jar \"/home/$USER/dataloader/target/dataloader-44.0.0-uber.jar\"
+Exec=java -jar \"/home/$USER/dev/dataloader/target/dataloader-44.0.0-uber.jar\"
 Icon=/usr/share/pixmaps/dataloader.png
 Type=Application
 StartupNotify=true
 Categories=Utility;Development;Network;
 Keywords=postman;
-" > /usr/share/applications/dataloader.desktop
-#wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.desktop
-#echo ""
-#echo "sudo mv dataloader.desktop /ur/share/applications/dataloader.desktop"
-#sudo mv dataloader.desktop /usr/share/applications/dataloader.desktop
+" > ~/dev/dataloader/dataloader.desktop
+echo ""
+echo "sudo mv ~/dev/dataloader/dataloader.desktop /usr/share/applications/dataloader.desktop"
+sudo mv ~/dev/dataloader/dataloader.desktop /usr/share/applications/dataloader.desktop
 echo END installing Data Loader
 echo ""
 echo ""
