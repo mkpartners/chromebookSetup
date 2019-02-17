@@ -25,13 +25,26 @@ echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/d
 wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png
 echo ""
 echo "sudo mv dataloader.png /ur/share/pixmaps/dataloader.png"
-sudo mv dataloader.png /ur/share/pixmaps/dataloader.png
+sudo mv dataloader.png /usr/share/pixmaps/dataloader.png
 echo ""
-echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.desktop"
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.desktop
-echo ""
-echo "sudo mv dataloader.desktop /ur/share/applications/dataloader.desktop"
-sudo mv dataloader.desktop /ur/share/applications/dataloader.desktop
+#echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.desktop"
+echo Create desktop file for dtaloader
+echo "
+[Desktop Entry]
+Name=Dataloader
+Comment=Salesforce Dataloader
+GenericName=Dataloader
+Exec=java -jar \"/home/$USER/dataloader/target/dataloader-44.0.0-uber.jar\"
+Icon=/usr/share/pixmaps/dataloader.png
+Type=Application
+StartupNotify=true
+Categories=Utility;Development;Network;
+Keywords=postman;
+" > /usr/share/applications/dataloader.desktop
+#wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.desktop
+#echo ""
+#echo "sudo mv dataloader.desktop /ur/share/applications/dataloader.desktop"
+#sudo mv dataloader.desktop /usr/share/applications/dataloader.desktop
 echo END installing Data Loader
 echo ""
 echo ""
