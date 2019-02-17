@@ -53,6 +53,10 @@ sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/maste
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash
 
+### install dataloader
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/install.sh | bash
+
 
 ### cleaning up
 sudo apt autoremove -y

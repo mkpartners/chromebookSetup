@@ -11,6 +11,8 @@ echo ""
 echo "sudo apt-get install -f -y"
 sudo apt-get install -f -y
 echo ""
+echo "rm slack-desktop-3.3.7-amd64.deb"
+rm slack-desktop-3.3.7-amd64.deb
 echo END Installing Slack
 echo ""
 echo ""
