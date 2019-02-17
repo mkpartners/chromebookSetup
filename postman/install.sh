@@ -16,14 +16,14 @@ echo ""
 echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.png"
 wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.png
 echo ""
-echo "sudo mv postman.png /ur/share/pixmaps/"
-sudo mv postman.png /ur/share/pixmaps/
+echo "sudo mv postman.png /usr/share/pixmaps/"
+sudo mv postman.png /usr/share/pixmaps/
 echo ""
 echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.desktop"
 wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.desktop
 echo ""
-echo "sudo mv postman.desktop /ur/share/applications/"
-sudo mv postman.desktop /ur/share/applications/
+echo "sudo mv postman.desktop /usr/share/applications/"
+sudo mv postman.desktop /usr/share/applications/
 echo ""
 echo END installing Postman
 echo ""
