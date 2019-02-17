@@ -9,12 +9,15 @@ It installs the following software:
 * libxss1
 * Java JDK
 * Maven
+* nvm (node version manager)
 * nodejs
 * Google Chrome (stable)
 * VS Code
-* sfdx
+* sfdx cli tool
 * Postman
+* Slack
 * Salesforce Dataloader
+* GIMP (Coming Soon)
 
 Upon completion it cleans up the downloaded installation files.
 
