@@ -7,10 +7,14 @@ It installs the following software:
 * wget 
 * lib32stdc++6 
 * libxss1
+* Java JDK
+* Maven
 * nodejs
 * Google Chrome (stable)
 * VS Code
 * sfdx
+* Postman
+* Salesforce Dataloader
 
 Upon completion it cleans up the downloaded installation files.
 

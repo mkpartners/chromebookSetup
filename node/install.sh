@@ -9,16 +9,10 @@ echo ""
 echo ""
 echo ""
 echo ""
-echo ""
 echo nvm ls
 nvm ls
 echo ""
-echo ""
-echo ""
-echo ""
-echo ""
 echo END installing node
-echo ""
 echo ""
 echo ""
 echo ""

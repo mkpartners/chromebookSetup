@@ -1,10 +1,8 @@
 #!/bin/bash
 ### Installation Instructions
-# 1. Copy File to Drive
-# 3. Open Terminal and locate file
-# 4. chmod 755 setupChromebook
-#
-#
+# sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/install.sh | bash
+###
+
 ### install git wget lib32stdc++t libxss1
 echo BEGIN installing git wget lib32stdc++6 libxss1
 sudo apt install -y git wget lib32stdc++6 libxss1
@@ -14,180 +12,52 @@ echo ""
 echo ""
 echo ""
 echo ""
-echo ""
-#
-#
-### install nvm
-echo BEGIN installing nvm
-sudo wget -o- https://raw.githubusercontent.com/creationix/nvm/v034.0/install.sh | bash
-## reload .bashrc config instead of closing terminal
-. ~/.bashrc
-## confirm nvm installation
-command -v nvm
-echo "END installing nvm"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
-#
-### install node
-echo BEGIN installing node
-nvm install --lts
-echo "END installing node"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
-#
-### install java 8
-echo BEGIN installing Java 8
-sudo apt-get install -y default-jdk
-echo "END installing Java 8"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
-#
-### install Maven
-echo BEGIN installing Maven
-sudo apt install -y maven
-sudo apt-get update
-sudo apt install -y maven
-mvn -version
-echo "END installing Maven"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
-#
-### install vscode
-echo BEGIN installing vscode
-wget https://go.microsoft.com/fwlink/?LinkID=760868 -O vscode.deb
-sudo dpkg -i vscode.deb
-sudo apt-get install -f -y 
-echo "END installing vscode"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
-#
-### install sfdx
-echo BEGIN installing sfdx
-wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
-mkdir ~/sfdx
-tar xJf sfdx-linux-amd64.tar.xz -C ~/sfdx --strip-components 1
-sudo ~/sfdx/install
-echo "END installing sfdx"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
-#
-### install chrome
-echo BEGIN installing Chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-sudo apt --fix-broken install
-echo "END installing Chrome"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
 
+### install nvm
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/nvm/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/nvm/install.sh | bash
+
+### install node
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash
+
+### install java 8
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash
+
+### install Maven
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/maven/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/maven/install.sh | bash
+
+### install vscode
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/vscode/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/vscode/install.sh | bash
+
+### install chrome
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/chrome/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/chrome/install.sh | bash
 
 ### install Postman
-echo BEGIN installing Postman
-wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
-sudo tar -xzf postman.tar.gz -C /opt
-rm postman.tar.gz
-sudo ln -s /opt/Postman/Postman /usr/bin/postman
-
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman.png
-sudo mv postman.png /ur/share/pixmaps/
-
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman.desktop
-sudo mv postman.desktop /ur/share/applications/
-
-echo "END installing Postman"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash
 
 ### install slack
-#
-#
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/slack/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/slack/install.sh | bash
+
 ### install firebase
-echo BEGIN installing firebase
-sudo npm install -g firebase-tools
-echo "END installing firebase"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
-#
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/firebase/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/firebase/install.sh | bash
+
 ### install polymer
-echo BEGIN installing polymer
-sudo npm install -g polymer-cli
-echo "END installing polymer"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
-#
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash
+
+
 ### cleaning up
 sudo apt autoremove -y
-rm sfdx-linux-amd64.tar.xz
-rm vscode.deb
-rm google-chrome-stable_current_amd64.deb
-#
-#
-### install Force Data Loader
-echo BEGIN installing Data Loader
-git clone https://github.com/forcedotcom/dataloader.git ~/dev/dataloader
-cd ~/dev/dataloader
-git submodule init
-git submodule update
-mvn clean package -DskipTests
-
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader.sh
-sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh
-
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader.png
-sudo mv dataloader.png /ur/share/pixmaps/dataloader.png
-
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader.desktop
-sudo mv dataloader.desktop /ur/share/applications/dataloader.desktop
-
-echo "END installing Data Loader"
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-#
 sudo apt update -y
 sudo apt upgrade -y
-#
 echo ""
 echo ""
 echo ""
