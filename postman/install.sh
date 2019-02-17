@@ -13,14 +13,14 @@ echo ""
 echo "sudo ln -s /opt/Postman/Postman /usr/bin/postman"
 sudo ln -s /opt/Postman/Postman /usr/bin/postman
 echo ""
-echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman.png"
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman.png
+echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.png"
+wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.png
 echo ""
 echo "sudo mv postman.png /ur/share/pixmaps/"
 sudo mv postman.png /ur/share/pixmaps/
 echo ""
-echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman.desktop"
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman.desktop
+echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.desktop"
+wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.desktop
 echo ""
 echo "sudo mv postman.desktop /ur/share/applications/"
 sudo mv postman.desktop /ur/share/applications/
