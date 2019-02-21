@@ -29,10 +29,9 @@ echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/p
 wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/postman.desktop
 echo ""
 echo "sudo mv postman.desktop /usr/share/applications/"
-sudo mv postman.desktop /usr/share/applications/
+sudo mv postman.desktop /usr/share/applications/postman.desktop
 echo ""
 echo END installing Postman
-echo ""
 echo ""
 echo ""
 echo ""
