@@ -55,7 +55,7 @@ sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/maste
 
 ### install dataloader
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/instal.sh | bash
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/install.sh | bash
 
 ### cleaning up
 sudo apt autoremove -y
