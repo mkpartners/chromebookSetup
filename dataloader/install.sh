@@ -24,11 +24,11 @@ echo ""
 echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png"
 wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png
 echo ""
-echo "sudo mv dataloader.png /ur/share/pixmaps/dataloader.png"
+echo "sudo mv dataloader.png /usr/share/pixmaps/dataloader.png"
 sudo mv dataloader.png /usr/share/pixmaps/dataloader.png
 echo ""
 #echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.desktop"
-echo Create desktop file for dtaloader
+echo Create desktop file for dataloader
 sudo echo "
 [Desktop Entry]
 Name=Dataloader
