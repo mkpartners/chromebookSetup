@@ -21,7 +21,7 @@ sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/maste
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash
 
-### install java 8
+### install java
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash
 

@@ -1,12 +1,12 @@
 [Desktop Entry]
+Encoding=UTF-8
 Name=Postman
-Comment=API Development Environment
-GenericName=Postman
 Exec=/usr/bin/postman
 Icon=/usr/share/pixmaps/postman.png
+Terminal=false
 Type=Application
+Categories=Development;
+Comment=API Development Environment
+GenericName=Postman
 StartupNotify=false
-Categories=Utility;Development;Network;
 Keywords=postman;
-
-

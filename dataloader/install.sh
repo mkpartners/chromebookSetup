@@ -39,7 +39,7 @@ Icon=/usr/share/pixmaps/dataloader.png
 Type=Application
 StartupNotify=true
 Categories=Utility;Development;Network;
-Keywords=postman;
+Keywords=dataloader;
 " > ~/dev/dataloader/dataloader.desktop
 echo ""
 echo "sudo mv ~/dev/dataloader/dataloader.desktop /usr/share/applications/dataloader.desktop"
