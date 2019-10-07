@@ -7,12 +7,14 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0xB199836
 
 echo ""
 echo "sudo echo 'deb http://repos.azulsystems.com/debian stable main' > /etc/apt/sources.list.d/zulu.list"
-sudo echo 'deb http://repos.azulsystems.com/debian stable main' > /etc/apt/sources.list.d/zulu.list
+echo 'deb http://repos.azulsystems.com/debian stable main' > zulu.list
+sudo mv zulu.list /etc/apt/sources.list.d/zulu.list
 echo ""
 echo "sudo apt-get update"
 sudo apt-get update
 echo ""
 echo "sudo apt-get install zulu-11"
+sudo apt-get install zulu-11
 echo ""
 echo "export JAVA_HOME=/usr/lib/jvm/zulu-11/"
 export JAVA_HOME=/usr/lib/jvm/zulu-11/

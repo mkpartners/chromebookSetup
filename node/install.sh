@@ -1,5 +1,5 @@
 #!/bin/bash
-### install nvm
+### install node
 . ~/.nvm/nvm.sh
 echo BEGIN installing node
 echo ""
