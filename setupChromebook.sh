@@ -58,8 +58,8 @@ echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash
 
 ### install flatpak + GIMP
-echo "sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/flatpakGimp/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/ThomasChun/chromebookSetup/master/flatpakGimp/install.sh | bash
+echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/flatpakGimp/install.sh | bash"
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/flatpakGimp/install.sh | bash
 
 ### cleaning up
 sudo apt autoremove -y
