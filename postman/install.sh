@@ -13,8 +13,9 @@ echo ""
 echo "sudo ln -s /opt/Postman/Postman /usr/bin/postman"
 sudo ln -s /opt/Postman/Postman /usr/bin/postman
 echo ""
-echo "apt-get install libgconf-2-4"
-sudo apt-get install libgconf-2-4
+# installing libgconf-2-4 was throwing asking Y/n and then aborting disrupting install flow;
+# echo "apt-get install libgconf-2-4"
+# sudo apt-get install libgconf-2-4
 echo ""
 echo "sudo apt --fix-broken install"
 sudo apt --fix-broken install -y
