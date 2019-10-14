@@ -30,6 +30,3 @@ export JAVA_HOME=/usr/lib/jvm/zulu-11/
 echo END installing java
 echo ""
 echo ""
-echo ""
-echo ""
-
