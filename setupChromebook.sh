@@ -20,7 +20,7 @@
 # echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash"
 # sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash
 
-### install java
+### install Azul Zulu Java 11
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash
 
@@ -28,17 +28,17 @@ sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/maste
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/maven/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/maven/install.sh | bash
 
-### install dataloader
+### install Dataloader
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/install.sh | bash
 
-### install vscode
+### install VS Code
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/vscode/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/vscode/install.sh | bash
 
-### install chrome
-echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/chrome/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/chrome/install.sh | bash
+### install Chrome (only needed if you can't get to certain ports not exposed in Crostini)
+# echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/chrome/install.sh | bash"
+# sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/chrome/install.sh | bash
 
 ### install Postman
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash"
