@@ -11,7 +11,6 @@
 # echo ""
 # echo ""
 # echo ""
-# echo ""
 
 # ### install nvm
 # echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/nvm/install.sh | bash"
@@ -45,7 +44,7 @@ sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/maste
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash"
 sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash
 
-### install slack
+### install slack (deprecated, use Android version or web instead)
 # echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/slack/install.sh | bash"
 # sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/slack/install.sh | bash
 
