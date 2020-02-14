@@ -32,3 +32,8 @@ Enter the following commands into the terminal:
 7. nvm install node
 8. nvm ls
 9. sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/setupChromebook.sh | bash
+
+
+
+Learn More About MK Partners at:
+https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N30000001gF9jEAE
