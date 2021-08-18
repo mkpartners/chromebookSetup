@@ -34,6 +34,9 @@ Enter the following commands into the terminal:
 9. sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/setupChromebook.sh | bash
 
 
+Trick to bring back alt square bracket options to move linux windows
+https://www.reddit.com/r/Crostini/wiki/enable-chrome-shortcuts-in-linux-apps
+
 
 Learn More About MK Partners at:
 https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N30000001gF9jEAE
