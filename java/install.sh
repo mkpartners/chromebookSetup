@@ -14,7 +14,7 @@ echo "sudo apt-get update"
 sudo apt-get update
 echo ""
 echo "sudo apt-get install zulu-11"
-sudo apt-get install zulu-11
+sudo apt-get -y install zulu-11
 echo ""
 echo "export JAVA_HOME=/usr/lib/jvm/zulu-11/"
 export JAVA_HOME=/usr/lib/jvm/zulu-11/
