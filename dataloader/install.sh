@@ -13,7 +13,7 @@ echo "git submodule update"
 git submodule update
 echo ""
 echo "mvn clean package -DskipTests"
-mvn clean package -DskipTests
+mvn clean package -DskipTests -DtargetOS=linux_x86_64
 echo ""
 echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh"
 wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh
@@ -34,7 +34,7 @@ sudo echo "
 Name=Dataloader
 Comment=Salesforce Dataloader
 GenericName=Dataloader
-Exec=java -jar \"/home/$USER/dev/dataloader/target/dataloader-47.0.0-uber.jar\"
+Exec=java -jar \"/home/$USER/dev/dataloader/target/dataloader-53.0.0-uber.jar\"
 Icon=/usr/share/pixmaps/dataloader.png
 Type=Application
 StartupNotify=true
