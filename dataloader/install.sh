@@ -6,6 +6,9 @@ echo ""
 echo "cd ~/dev/dataloader"
 cd ~/dev/dataloader
 echo ""
+echo "git checkout v50"
+git checkout v50
+echo ""
 echo "git submodule init"
 git submodule init
 echo ""
@@ -15,12 +18,12 @@ echo ""
 echo "mvn clean package -DskipTests"
 mvn clean package -DskipTests -DtargetOS=linux_x86_64
 echo ""
-echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh"
-wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh
-echo ""
-echo "sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh"
-sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh
-echo ""
+# echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh"
+# wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh
+# echo ""
+# echo "sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh"
+# sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh
+# echo ""
 echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png"
 wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png
 echo ""
@@ -34,7 +37,7 @@ sudo echo "
 Name=Dataloader
 Comment=Salesforce Dataloader
 GenericName=Dataloader
-Exec=java -jar \"/home/$USER/dev/dataloader/target/dataloader-53.0.0-uber.jar\"
+Exec=java -jar \"/home/$USER/dev/dataloader/target/dataloader-50.0.0-uber.jar\"
 Icon=/usr/share/pixmaps/dataloader.png
 Type=Application
 StartupNotify=true
