@@ -1,5 +1,8 @@
 #!/bin/bash
 echo BEGIN installing Dataloader
+echo "rm -r -f ~/dev/dataloader"
+rm -r -f ~/dev/dataloader
+echo ""
 echo "git clone https://github.com/forcedotcom/dataloader.git ~/dev/dataloader"
 git clone https://github.com/forcedotcom/dataloader.git ~/dev/dataloader
 echo ""
