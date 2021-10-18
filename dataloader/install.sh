@@ -4,7 +4,7 @@ echo "rm -r -f ~/dev/dataloader"
 rm -r -f ~/dev/dataloader
 echo ""
 echo "git clone https://github.com/forcedotcom/dataloader.git ~/dev/dataloader"
-git clone https://github.com/forcedotcom/dataloader.git ~/dev/dataloader
+git clone https://github.com/the1mattkaufman/dataloader.git ~/dev/dataloader
 echo ""
 echo "cd ~/dev/dataloader"
 cd ~/dev/dataloader
@@ -21,12 +21,6 @@ echo ""
 echo "mvn clean package -DskipTests"
 mvn clean package -DskipTests -DtargetOS=linux_x86_64
 echo ""
-# echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh"
-# wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.sh
-# echo ""
-# echo "sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh"
-# sudo mv dataloader.sh ~/dev/dataloader/dataloader.sh
-# echo ""
 echo "wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png"
 wget https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/dataloader/dataloader.png
 echo ""
