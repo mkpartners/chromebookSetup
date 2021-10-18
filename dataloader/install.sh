@@ -9,7 +9,7 @@ echo ""
 echo "cd ~/dev/dataloader"
 cd ~/dev/dataloader
 echo ""
-echo "git checkout v50"
+# echo "git checkout v50"
 # git checkout v50
 echo ""
 echo "git submodule init"
