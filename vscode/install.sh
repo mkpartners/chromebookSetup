@@ -36,10 +36,9 @@ echo ""
 echo ""
 
 wget https://github.com/GitCredentialManager/git-credential-manager/releases/download/v2.0.567/gcmcore-linux_amd64.2.0.567.18224.tar.gz
-echo ""
-git-credential-manager-core configure
-echo ""
+tar -xvf gcmcore-linux_amd64.2.0.567.18224.tar.gz -C /usr/local/bin
 git config --global credential.credentialStore secretservice
+git-credential-manager-core configure
 echo ""
 
 # echo BEGIN installing sfdx
