@@ -3,21 +3,13 @@
 This project currently contains a single script that can be used to setup the linux container on a freshly wiped Chromebook.
 
 It installs the following software:
-* git 
-* wget 
-* lib32stdc++6 
-* libxss1
 * Java JDK
 * Maven
 * nvm (node version manager)
 * nodejs
-* Google Chrome (stable)
 * VS Code
 * sfdx cli tool
-* Postman
-* Slack
 * Salesforce Dataloader
-* GIMP
 
 Upon completion it cleans up the downloaded installation files.
 
