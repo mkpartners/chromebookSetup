@@ -14,11 +14,11 @@
 
 # ### install nvm
 # echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/nvm/install.sh | bash"
-# sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/nvm/install.sh | bash
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/nvm/install.sh | bash
 
 # ### install node
 # echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash"
-# sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash
+sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/node/install.sh | bash
 
 ### install Azul Zulu Java 11
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/java/install.sh | bash"
@@ -42,7 +42,7 @@ sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/maste
 
 ### install Postman
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash
+# sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/postman/install.sh | bash
 
 ### install slack (deprecated, use Android version or web instead)
 # echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/slack/install.sh | bash"
@@ -50,24 +50,20 @@ sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/maste
 
 ### install firebase
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/firebase/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/firebase/install.sh | bash
+# sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/firebase/install.sh | bash
 
 ### install polymer
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash
+# sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/polymer/install.sh | bash
 
 ### install flatpak + GIMP
 echo "sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/flatpakGimp/install.sh | bash"
-sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/flatpakGimp/install.sh | bash
+# sudo curl -o- https://raw.githubusercontent.com/mkpartners/chromebookSetup/master/flatpakGimp/install.sh | bash
 
 ### cleaning up
 sudo apt autoremove -y
 sudo apt update -y
 sudo apt upgrade -y
-echo ""
-echo ""
-echo ""
-echo ""
 echo ""
 echo ""
 echo "INSTALLATION COMPLETE -- This message will self destruct in 0 seconds"
