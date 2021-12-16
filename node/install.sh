@@ -2,11 +2,9 @@
 ### install node
 echo BEGIN installing node
 echo ""
-echo nvm install node
-nvm install node
+volta install node
 echo ""
-echo nvm ls
-nvm ls
+node --version
 echo ""
 echo END installing node
 echo ""
