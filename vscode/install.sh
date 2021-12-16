@@ -35,6 +35,8 @@ echo ""
 echo ""
 echo ""
 
+sudo apt install -y gnome-keyring
+
 wget https://github.com/GitCredentialManager/git-credential-manager/releases/download/v2.0.567/gcmcore-linux_amd64.2.0.567.18224.tar.gz
 tar -xvf gcmcore-linux_amd64.2.0.567.18224.tar.gz -C /usr/local/bin
 git config --global credential.credentialStore secretservice
